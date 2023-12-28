@@ -2,8 +2,7 @@
   "functions": {
     "api/saveUserData.js": {
       "memory": 3008,
-      "maxDuration": 30,
-      "methods": ["POST"]
+      "maxDuration": 30
     },
     "api/*.js": {
       "memory": 3008,
