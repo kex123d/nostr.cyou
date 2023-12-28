@@ -1,5 +1,7 @@
 {
   "functions": {
-    "api": "/api/*.js"
+    "api": {
+      "source": "/api/.*\\.js$"
+    }
   }
 }
