@@ -1,8 +1,13 @@
 {
   "functions": {
-    "api/saveUserData": {
-      "handler": "api/saveUserData.js",
+    "api/saveUserData.js": {
+      "memory": 3008,
+      "maxDuration": 30,
       "methods": ["POST"]
+    },
+    "api/*.js": {
+      "memory": 3008,
+      "maxDuration": 30
     }
   }
 }
