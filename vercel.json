@@ -1,7 +1,3 @@
 {
-  "rewrites": [
-    {"source": "/saveUserData", "destination": "/api/saveUserData"}
-  ]
   "functions": "api"
-
 }
