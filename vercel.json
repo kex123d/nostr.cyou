@@ -1,7 +1,8 @@
 {
   "functions": {
-    "api": {
-      "source": "/api/.*\\.js$"
+    "api/saveUserData": {
+      "handler": "api/saveUserData.js",
+      "methods": ["POST"]
     }
   }
 }
